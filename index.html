@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Etch-a-Sketch!
+        </title>
+        
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <span class="upperText">Etch-a-Sketch!</span>
+
+            <div id="container">
+            <!--The proper squares to be colored will be added here-->
+            </div>
+
+            <div class="buttons">
+                <div>
+                    Clear the colors:
+                    <button type="button" id="#clear">Clear</button>
+                </div>
+                <div>
+                    Select size:
+                    <form name="gridSize" >
+                        <select name="selectSize">
+                            <option value="1">1</option>
+                            <option value="4">4</option>
+                            <option value="16" selected>16</option>
+                            <option value="32">32</option>
+                            <option value="64">64</option>
+                        </select>
+                        <button type="button" id="#submit">OK</button>
+                    </form>      
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="scripts.js"></script>
+    </body>
+    
+</html>
